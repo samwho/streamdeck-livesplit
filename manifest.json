@@ -1,0 +1,115 @@
+{
+  "Actions": [
+    {
+      "Name": "Start timer",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.starttimer",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Start\ntimer",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Start or split",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.startorsplit",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Start\nor split",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Split",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.split",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Split",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Unsplit",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.unsplit",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Unsplit",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Skip split",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.skipsplit",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Skip\nsplit",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Pause",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.pause",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Pause",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Resume",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.resume",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Pause",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Reset",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.reset",
+      "States": [{
+        "Image": "images/black",
+        "Title": "Reset",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Sam Rose",
+  "Category": "LiveSplit",
+  "CategoryIcon": "images/livesplit",
+  "CodePath": "streamdeck-livesplit-plugin.exe",
+  "Description": "Plugin to control LiveSplit from your StreamDeck",
+  "Name": "LiveSplit",
+  "URL": "https://samwho.dev",
+  "Version": "0.1",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
