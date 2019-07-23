@@ -72,7 +72,7 @@
       "UUID": "dev.samwho.streamdeck-livesplit.resume",
       "States": [{
         "Image": "images/black",
-        "Title": "Pause",
+        "Title": "Resume",
         "TitleAlignment": "middle",
         "FontSize": "11"
       }]
@@ -84,6 +84,26 @@
       "States": [{
         "Image": "images/black",
         "Title": "Reset",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Current Time",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.getcurrenttime",
+      "States": [{
+        "Image": "images/black",
+        "TitleAlignment": "middle",
+        "FontSize": "11"
+      }]
+    },
+    {
+      "Name": "Comparison Split Time",
+      "SupportedInMultiActions": false,
+      "UUID": "dev.samwho.streamdeck-livesplit.getcomparisonsplittime",
+      "States": [{
+        "Image": "images/black",
         "TitleAlignment": "middle",
         "FontSize": "11"
       }]
