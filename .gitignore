@@ -60,4 +60,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+build
+release
+
 # End of https://www.gitignore.io/api/go,windows,visualstudiocode

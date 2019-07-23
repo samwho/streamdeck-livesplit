@@ -2,6 +2,7 @@
   "Actions": [
     {
       "Name": "Start timer",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.starttimer",
       "States": [{
@@ -13,6 +14,7 @@
     },
     {
       "Name": "Start or split",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.startorsplit",
       "States": [{
@@ -24,6 +26,7 @@
     },
     {
       "Name": "Split",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.split",
       "States": [{
@@ -35,6 +38,7 @@
     },
     {
       "Name": "Unsplit",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.unsplit",
       "States": [{
@@ -46,6 +50,7 @@
     },
     {
       "Name": "Skip split",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.skipsplit",
       "States": [{
@@ -57,6 +62,7 @@
     },
     {
       "Name": "Pause",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.pause",
       "States": [{
@@ -68,6 +74,7 @@
     },
     {
       "Name": "Resume",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.resume",
       "States": [{
@@ -79,6 +86,7 @@
     },
     {
       "Name": "Reset",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.reset",
       "States": [{
@@ -90,6 +98,7 @@
     },
     {
       "Name": "Current Time",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.getcurrenttime",
       "States": [{
@@ -100,6 +109,7 @@
     },
     {
       "Name": "Comparison Split Time",
+      "Icon": "images/livesplit",
       "SupportedInMultiActions": false,
       "UUID": "dev.samwho.streamdeck-livesplit.getcomparisonsplittime",
       "States": [{
@@ -113,6 +123,7 @@
   "Author": "Sam Rose",
   "Category": "LiveSplit",
   "CategoryIcon": "images/livesplit",
+  "Icon": "images/livesplit",
   "CodePath": "streamdeck-livesplit-plugin.exe",
   "Description": "Plugin to control LiveSplit from your StreamDeck",
   "Name": "LiveSplit",
