@@ -22,7 +22,11 @@ sdplugin: build
 	cp -r images $(SDPLUGINDIR)
 
 install: sdplugin
+	rm -rf $(INSTALLDIR)
 	mv $(SDPLUGINDIR) $(INSTALLDIR)
+
+uninstall:
+	rm -rf $(INSTALLDIR)
 
 logs:
 	tail -f "$(TMP)"/streamdeck-livesplit.log*

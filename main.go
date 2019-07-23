@@ -29,13 +29,13 @@ func WhileRunning(f func() error) {
 }
 
 func main() {
-	// f, err := ioutil.TempFile("", "streamdeck-livesplit.log")
-	// if err != nil {
-	// 	log.Fatalf("error creating temp file: %v", err)
-	// }
-	// defer f.Close()
-	// streamdeck.Log().SetOutput(f)
-	// livesplit.Log().SetOutput(f)
+	//f, err := ioutil.TempFile("", "streamdeck-livesplit.log")
+	//if err != nil {
+	//	log.Fatalf("error creating temp file: %v", err)
+	//}
+	//defer f.Close()
+	//streamdeck.Log().SetOutput(f)
+	//livesplit.Log().SetOutput(f)
 
 	params, err := streamdeck.ParseRegistrationParams(os.Args)
 	if err != nil {
