@@ -128,7 +128,7 @@
   "Description": "Plugin to control LiveSplit from your StreamDeck",
   "Name": "LiveSplit",
   "URL": "https://samwho.dev",
-  "Version": "0.1",
+  "Version": "0.2",
   "OS": [
     {
         "Platform": "mac",
