@@ -63,7 +63,7 @@
     {
       "Name": "Pause",
       "Icon": "images/livesplit",
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "UUID": "dev.samwho.streamdeck-livesplit.pause",
       "States": [{
         "Image": "images/black",
@@ -75,7 +75,7 @@
     {
       "Name": "Resume",
       "Icon": "images/livesplit",
-      "SupportedInMultiActions": false,
+      "SupportedInMultiActions": true,
       "UUID": "dev.samwho.streamdeck-livesplit.resume",
       "States": [{
         "Image": "images/black",
